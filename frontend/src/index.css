@@ -1,0 +1,64 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-paper text-ink dark:bg-canopy-950 dark:text-canopy-50 font-sans antialiased;
+    background-image: radial-gradient(circle at 1px 1px, rgba(19, 42, 28, 0.05) 1px, transparent 0);
+    background-size: 22px 22px;
+  }
+
+  .dark body {
+    background-image: radial-gradient(circle at 1px 1px, rgba(220, 236, 224, 0.05) 1px, transparent 0);
+  }
+
+  h1, h2, h3, h4 {
+    @apply font-display;
+  }
+
+  ::selection {
+    @apply bg-canopy-300/50;
+  }
+
+  :focus-visible {
+    outline: 2px solid theme("colors.canopy.500");
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+@layer components {
+  .card {
+    @apply rounded-2xl border border-canopy-800/10 dark:border-canopy-50/10 bg-white/70 dark:bg-canopy-900/50 backdrop-blur-sm shadow-soft;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full bg-canopy-800 px-5 py-2.5 text-sm font-semibold text-paper shadow-soft transition hover:bg-canopy-700 active:scale-[0.98] disabled:opacity-50 disabled:pointer-events-none dark:bg-canopy-400 dark:text-canopy-950 dark:hover:bg-canopy-300;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-full border border-canopy-800/20 dark:border-canopy-50/20 px-5 py-2.5 text-sm font-semibold text-ink dark:text-canopy-50 transition hover:border-canopy-800/40 hover:bg-canopy-800/5 dark:hover:bg-canopy-50/5 active:scale-[0.98];
+  }
+
+  .pill {
+    @apply inline-flex items-center gap-1.5 rounded-full px-3 py-1 text-xs font-medium tracking-wide;
+  }
+
+  .eyebrow {
+    @apply text-xs font-mono uppercase tracking-[0.18em] text-canopy-600 dark:text-canopy-300;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}

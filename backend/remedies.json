@@ -1,0 +1,17 @@
+{
+  "pepper_bacterial_spot": "Apply copper-based bactericide preventively before wet periods. See the full disease profile in-app for organic, chemical, and preventive options.",
+  "pepper_healthy": "No action needed. Continue regular watering and monitoring for early signs of disease.",
+  "potato_early_blight": "Remove and destroy infected lower leaves promptly. See the full disease profile in-app for organic, chemical, and preventive options.",
+  "potato_late_blight": "Remove and destroy infected plants immediately, do not compost. See the full disease profile in-app for organic, chemical, and preventive options.",
+  "potato_healthy": "No action needed. Continue regular watering and monitoring for early signs of disease.",
+  "tomato_bacterial_spot": "Apply copper-based bactericide preventively. See the full disease profile in-app for organic, chemical, and preventive options.",
+  "tomato_early_blight": "Prune and destroy infected lower leaves promptly. See the full disease profile in-app for organic, chemical, and preventive options.",
+  "tomato_late_blight": "Remove and bag infected plants immediately, do not compost. See the full disease profile in-app for organic, chemical, and preventive options.",
+  "tomato_leaf_mold": "Increase ventilation and reduce humidity below 85%. See the full disease profile in-app for organic, chemical, and preventive options.",
+  "tomato_septoria_leaf_spot": "Remove and destroy infected lower leaves as soon as spotted. See the full disease profile in-app for organic, chemical, and preventive options.",
+  "tomato_spider_mites": "Spray leaves (especially undersides) with a strong jet of water to dislodge mites. See the full disease profile in-app for organic, chemical, and preventive options.",
+  "tomato_target_spot": "Remove and destroy infected leaves and fruit promptly. See the full disease profile in-app for organic, chemical, and preventive options.",
+  "tomato_yellow_leaf_curl_virus": "There is no cure for the virus itself \u2014 remove and destroy infected plants. See the full disease profile in-app for organic, chemical, and preventive options.",
+  "tomato_mosaic_virus": "There is no cure for the virus itself \u2014 remove and destroy infected plants. See the full disease profile in-app for organic, chemical, and preventive options.",
+  "tomato_healthy": "No action needed. Continue regular watering and monitoring for early signs of disease."
+}
